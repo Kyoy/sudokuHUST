@@ -1,1 +1,1 @@
-# sudokuHUST
+# 数独课设
