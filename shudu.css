@@ -1,0 +1,60 @@
+    #container {
+      display: block;
+    }
+	
+    #shudu {
+      width: 560px;
+      height: 560px;
+      list-style: none;
+    }
+
+    #shudu li {
+      width: 60px;
+      height: 60px;
+      border: 1px solid #000;
+      float: left;
+      text-align: center;
+      line-height: 60px;
+      font-size: 30px;
+    }
+
+    #shudu input {
+      width: 60px;
+      height: 60px;
+      border: 0px;
+      float: left;
+      text-align: center;
+      line-height: 60px;
+      font-size: 30px;
+      padding: 0px;
+    }
+	
+	#selectMood {
+		margin:10px auto auto 40px;
+		width:100px;
+		height:30px;
+	}
+	
+	.initialize{
+      margin: 70px auto auto 200px;
+      width: 200px;
+      height: 45px;
+      position: absolute;
+      background-color: #237fdd;
+      border: none;
+      border-radius: 30px 30px 30px 30px;
+      font-size: 20px;
+      letter-spacing: 10px;
+    }
+    
+	.request{
+      margin: 10px auto auto 200px;
+      width: 200px;
+      height: 45px;
+      position: absolute;
+      background-color:#237fdd;
+      border: none;
+      border-radius: 30px 30px 30px 30px;
+      font-size: 20px;
+      letter-spacing: 10px;
+    }

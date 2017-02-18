@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta content="text/html;charset=utf-8">
+  <title>数独</title>
+  <link rel="stylesheet" href="shudu.css">
+</head>
+
+<body>
+<div id="container">
+    <ul id="shudu" >
+      <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li>
+	  <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li>
+	  <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li>
+	  <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li>
+	  <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li>
+	  <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li>
+	  <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li>
+	  <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li>
+	  <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li>
+	</ul>
+  <div>
+  <select id="selectMood" onChange="onChangeSelect()">
+    <option value="0" >简单</option>
+    <option value="1" >中等</option>
+    <option value="2" >困难</option>
+  </select>
+  </div>
+  <div >
+    <button type="button" class="initialize" style="color:#ffffff" onClick="gameStart()">新游戏</button>
+    <button type="button" class="request" style="color:#ffffff" onClick="Answer()">答案</button>
+  </div>
+  <script src="shudu.js"></script>
+</div>
+</body>
+</html>
